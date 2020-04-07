@@ -71,7 +71,7 @@
              <div class="col-md-4">
                 <div class="art">
                     <a href="/singer<%= x %>"><img height="250px" src='<%= homeData.data[x].pictureUrl %>' alt='<%= homeData.data[x].pictureUrl %>'></a>
-                    <a href="/singer<%= x %>"><h1><%= homeData.data[x].singerName %></h1></a>
+                    <a href="/singer<%= x %>"><h1><%= homeData.data[x].singerName.toUpperCase() %></h1></a>
                     <p class="des"><%= homeData.data[x].musicGenre %></p>
                     <p class="tydes"><%= homeData.data[x].description %>.</p>
                     <br>
@@ -96,33 +96,12 @@
                       <input type="text" name="pictureUrl" class="form-control" aria-label="w-100" aria-describedby="inputGroup-sizing-default" id="image">
                     </div>
 
-                    <!-- <div class="input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Singer Name</span>
-                      </div>
-                      <input type="text" class="form-control" name="singerName" aria-label="w-100" aria-describedby="inputGroup-sizing-default" id="name">
-                    </div> -->
-
-                    <!-- <div class="input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Music Type</span>
-                      </div>
-                      <input type="text" class="form-control" name="musicType" aria-label="w-100" aria-describedby="inputGroup-sizing-default" id="tymusic">
-                    </div> -->
-
                     <div class="input-group mb-3">
                       <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-default">Description</span>
                       </div>
                       <input type="text" class="form-control" name="description" aria-label="w-100" aria-describedby="inputGroup-sizing-default" id="des">
                     </div>
-
-                    <!-- <div class="input-group mb-3">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-default">Picture Url</span>
-                      </div>
-                      <input type="text" name="pictureUrl" class="form-control" aria-label="w-100" aria-describedby="inputGroup-sizing-default" id="image">
-                  </div> -->
 
                   <div class="input-group mb-3">
                     <div class="input-group-prepend">

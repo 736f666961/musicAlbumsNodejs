@@ -494,6 +494,7 @@ if(fs.existsSync(__dirname + "/new/homeData.json")){
             // Get data from user as an object
             let xSinger = {
                 "pictureUrl": req.body.pictureUrl,
+                "description": req.body.description,
                 "singerName": req.body.singerName,
                 "bornDate": req.body.bornDate,
                 "singerOrigin": req.body.singerOrigin,
@@ -545,6 +546,7 @@ if(fs.existsSync(__dirname + "/new/homeData.json")){
         // Get data from user as an object
         let xSinger = {
             "pictureUrl": req.body.pictureUrl,
+            "description": req.body.description,
             "singerName": req.body.singerName,
             "bornDate": req.body.bornDate,
             "singerOrigin": req.body.singerOrigin,
