@@ -13,5 +13,4 @@ nodemon server.js
 npm i ejs
 npm i express
 npm i body-parser
-
 ```
