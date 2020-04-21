@@ -4,6 +4,14 @@ Music and Albums Api is an api that stores your favorites music and albums in js
 
 ### Running
 
-```bash
+```
 nodemon server.js
+```
+### Dependicies Installation 
+
+```
+npm i ejs
+npm i express
+npm i body-parser
+
 ```
